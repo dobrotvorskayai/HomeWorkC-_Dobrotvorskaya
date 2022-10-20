@@ -13,7 +13,7 @@ int X2 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите координату Y точки B: ");
 int Y2 = Convert.ToInt32(Console.ReadLine());
 
-double Dest(double XC1, double XC2, double YC1, double YC2)
+double Dest(int XC1, int XC2, int YC1, int YC2)
 {
     double kat1 = XC1 - XC2;
     double kat2 = YC1 - YC2;
@@ -23,7 +23,7 @@ double Dest(double XC1, double XC2, double YC1, double YC2)
     return res;
 }
 
-double resalt = Dest(X1, Y1, X2, Y2);
+double resalt = Dest(X1, X2, Y1, Y2);
 Console.WriteLine($"Расстояние между точками А ({X1}, {Y1}) и В ({X2}, {Y2}) равно {resalt}");
 
 
