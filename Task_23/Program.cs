@@ -3,7 +3,7 @@
 // - принимает на вход число (N) и 
 // выдаёт таблицу кубов чисел от 1 до N.
 
-void SquareTable(int num)
+void CubeTable(int num)
 {
     if (num > 0)
     {
@@ -24,5 +24,5 @@ void SquareTable(int num)
 
 Console.WriteLine("Введите число: ");
 int n = Convert.ToInt32(Console.ReadLine());
-SquareTable(n);
+CubeTable(n);
 
