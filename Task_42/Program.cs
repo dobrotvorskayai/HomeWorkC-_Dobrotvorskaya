@@ -34,3 +34,14 @@ int RevertNumber(int par)
 }
 
 Console.WriteLine(RevertNumber(ConvertToBin(number)));
+
+// int d10 = 1; //часть длятого, чтобы 0 не пропадал
+// int result = 0;
+// int number = 46;
+// while (number != 0)
+// {
+// result = result + number % 2 * d10;
+// number = number / 2;
+// d10 = d10 * 10;
+// }
+// Console.WriteLine($"{result}");
